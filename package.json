@@ -1,7 +1,8 @@
 {
-  "name": "vue-ssr",
+  "name": "vue2-ssr-apollo-graphql",
   "version": "1.0.0",
   "description": "",
+  "license": "MIT",
   "main": "index.js",
   "scripts": {
     "watch-c": "webpack --config webpack/webpack.client.js -w",
@@ -12,8 +13,10 @@
     "start": "npm run build && node server/index.js"
   },
   "dependencies": {
+    "apollo-client": "^0.4.21",
     "express": "^4.14.0",
     "vue": "^2.0.0-beta.6",
+    "vue-apollo": "^1.0.0-rc.1",
     "vue-server-renderer": "^2.0.0-beta.6"
   },
   "devDependencies": {

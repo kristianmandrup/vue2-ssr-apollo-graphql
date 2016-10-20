@@ -14,6 +14,8 @@ const bundleRenderer = vueServerRenderer.createBundleRenderer(serverBundleFileCo
 const clientBundleFilePath = path.join(__dirname, '../dist/bundle.client.js');
 const clientBundleFileUrl = '/bundle.client.js';
 
+process.env.VUE_ENV = 'server';
+
 // Server-Side Rendering
 app.get('/', function (req, res) {
   bundleRenderer.renderToString((err, html) => {
