@@ -1,5 +1,7 @@
 # vue2-ssr-example
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/kristianmandrup/vue2-ssr-apollo-graphql.svg)](https://greenkeeper.io/)
+
 Vue 2.0 Server-Side Rendering Example. [Read more](http://csbun.github.io/blog/2016/08/vue-2-0-server-side-rendering/).
 
 ## Installation
